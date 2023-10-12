@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100vh;
+}
+section a {
+  padding: 10px;
+  border: 1px solid #ed6436;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+  border-top-left-radius: 0px;
+}
+section a:hover {
+  color: #fff;
+  background: #ed6436;
+}
